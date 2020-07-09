@@ -102,15 +102,3 @@ filetype indent plugin on // 76 line ~ 81 line = python
  18     print("timer fired")
  19 
 ```
-try:
- 40           client = influxdb('localhost',8086,'root','root','kang')
- 41      except Exception as e:
- 42           print "Exception" + str(e)
- 43      if client is not  None:
- 44          try:
- 45             client.write_points(data)
- 46          except Exception as e:
- 47             print "Exception wirte"+str(e)
- 48          finally:
- 49              client.close()
- 50      print("running influxdb OK")
