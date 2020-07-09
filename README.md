@@ -57,3 +57,26 @@ sudo service grafana-server start
 ```
 sudo pip install influxdb
 ```
+### github use 
+- Repository down load
+```
+git clone https://github.com/blooth123/jjvison (blooth123, jjvison = user name, repository name)
+```
+```
+sudo = super user
+sudo ufw allow 22 (or) 80 = firewall
+```
+# vim editor setting
+```
+vim .vimrc = vim editor setting
+set nu = Line namber
+set cindent - C language indent
+set ts=4 - python tab size 4
+if has("syntax") = syntax on
+set softtabstop=4
+set bg-dark
+set expandtab
+let python_version_2 = 1 
+let python_highlight_all = 1
+filetype indent plugin on // 76 line ~ 81 line = python
+```
