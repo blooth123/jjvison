@@ -109,5 +109,10 @@ vnc server
 ```
 # sudo raspi-config -> Interfacing Options -> serial
 ```
-entable / distable setting
+entable / disable setting
+```
+## blooth off
+```
+sudo systemctl disable hciuartsudo 
+vim /boot/config.txt
 ```
