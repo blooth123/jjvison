@@ -114,5 +114,6 @@ entable / disable setting
 ## blooth off
 ```
 sudo systemctl disable hciuartsudo 
+->dtoverlay=pi3-disable-bt
 vim /boot/config.txt
 ```
