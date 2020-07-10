@@ -102,3 +102,12 @@ filetype indent plugin on // 76 line ~ 81 line = python
  18     print("timer fired")
  19 
 ```
+# sudo raspi-config -> Interfacing Options -> VNC
+```
+vnc viewer download 
+vnc server
+```
+# sudo raspi-config -> Interfacing Options -> serial
+```
+entable / distable setting
+```
