@@ -130,5 +130,5 @@ pip3 install python-telegram-bot --upgrade // bot download
 git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
 cd python-telegram-bot/
 cd examples
-vim timerbot.py -> 80 line (main) -> nuser TOken
+vim timerbot.py -> 80 line (main) -> nuser TOke
 ```
