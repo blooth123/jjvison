@@ -13,7 +13,8 @@ while (True):
         rcvBuf = bytearray()
         device.reset_input_buffer()
         rcvBuf = device.read_until (size=12)
-        print rcvBuf
+        print rcvBuf[:-5]
+
     except Exception as e:
         print("Exception read") + str(e)
 
