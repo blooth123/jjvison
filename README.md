@@ -117,3 +117,18 @@ sudo systemctl disable hciuartsudo
 ->dtoverlay=pi3-disable-bt
 vim /boot/config.txt
 ```
+## telegram
+### phone
+```
+telegram download
+botfader -> /newbot
+bot name -> ( name )_bot
+```
+# telegram 
+```
+pip3 install python-telegram-bot --upgrade // bot download
+git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
+cd python-telegram-bot/
+cd examples
+vim timerbot.py -> 80 line (main) -> nuser TOken
+```
