@@ -132,3 +132,11 @@ cd python-telegram-bot/
 cd examples
 vim timerbot.py -> 80 line (main) -> nuser TOke
 ```
+## github 저장방법
+- git clone https://github.com/blooth123(사용자 ID)/jjvison(데이터 빼올 project/ (라즈베리파이에 데이터를 불러온다)
+# 저장
+- git add .
+- git commit -m (주석 필요)
+- git push (저장한다 git push 를 하면 아이디랑 비밀번호 입력)
+# 에러가 났을경우
+- git pull 
